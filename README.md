@@ -1,5 +1,8 @@
 # Sea-Battle-demo-game
 A demo game in python
+<img src="https://github.com/AlinaMaistrenko/Sea-Battle-demo-game/blob/main/screenshots/main.jpg">
+
+More screenshots [here](https://github.com/AlinaMaistrenko/Sea-Battle-demo-game/tree/main/screenshots).
 
 ## Requirements: 
   1. Python 3.+.
