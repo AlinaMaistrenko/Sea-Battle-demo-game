@@ -29,18 +29,6 @@ More screenshots [here](https://github.com/AlinaMaistrenko/Sea-Battle-demo-game/
       * "**destroyed**" - means, bot's previous shoot was successful, and destroyed the player's ship complataly.
   As an example open `bots.py` file, and see the bot ***Fati***.
   
-### Adding the custom bot:
-  1. Open `bots.py` file.
-  2. Paste implementation of a custom bot class bellow the bot ***Fati*** class.
-  3. Open 'main.py` file.
-  4. Go to `class Main` > `def __init__(self):`.
-  5. Find the line `self.__bot = bots.Fati()`.
-  6. Change it to `self.__bot = bots.CustomBot()` (here *"CustomBot"* is a created bot's name).
-  5. Go to `class Main` > `def on_game_back_button_pressed(self):`, 
-  6. Change the line `self.__bot = bots.Fati()` to `self.__bot = bots.CustomBot()` 
-  (here *"CustomBot"* the same as within step **5**)
   
-  
-*If you have any questions, feel free to ask chorobaev.nurbol@gmail.com =)*
 
 
